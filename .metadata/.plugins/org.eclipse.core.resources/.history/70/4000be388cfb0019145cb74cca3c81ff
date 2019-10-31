@@ -1,0 +1,31 @@
+package app.teste;
+import org.junit.Assert;
+
+import app.StringUtil;
+
+
+public class StringUtilTest {
+	
+	@org.junit.Test
+	public void testIsEmpty() {
+		boolean b;
+		b = StringUtil.isEmpty("abc");
+		Assert.assertFalse(b);
+		
+		b = StringUtil.isEmpty(null);
+		Assert.assertTrue(b);
+		
+		b = StringUtil.isEmpty("");
+		Assert.assertTrue(b);
+		
+	}
+	@org.junit.Test
+	public void testReverse() {
+		String r = StringUtil.reverse("abc");
+		Assert.assertEquals("cba",r);
+		
+		r = StringUtil.reverse(null);
+		Assert.assertNull(r);
+	}
+	
+}

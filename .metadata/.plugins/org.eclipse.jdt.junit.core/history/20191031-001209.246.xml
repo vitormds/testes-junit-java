@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StringUtilTest" project="testes-unitarios" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="app.teste.StringUtilTest" time="0.008" displayname="StringUtilTest" uniqueid="[engine:junit-vintage]/[runner:app.teste.StringUtilTest]">
+    <testcase name="testReverse" classname="app.teste.StringUtilTest" time="0.006" displayname="testReverse" uniqueid="[engine:junit-vintage]/[runner:app.teste.StringUtilTest]/[test:testReverse(app.teste.StringUtilTest)]"/>
+    <testcase name="testIsEmpty" classname="app.teste.StringUtilTest" time="0.002" displayname="testIsEmpty" uniqueid="[engine:junit-vintage]/[runner:app.teste.StringUtilTest]/[test:testIsEmpty(app.teste.StringUtilTest)]"/>
+  </testsuite>
+</testrun>
